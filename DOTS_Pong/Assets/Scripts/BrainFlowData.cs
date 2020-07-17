@@ -18,6 +18,7 @@ public class BrainFlowData : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("MADE NEW BRAINFLOW OBJECT");
         try
         {
             BoardShim.set_log_file("brainflow_log.txt");

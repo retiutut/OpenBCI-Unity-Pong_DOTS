@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 	public static GameManager main;
 
 	public GameObject ballPrefab;
+	public GameObject brainflowPrefab;
 
 	public float xBound = 3f;
 	public float yBound = 3f;
@@ -44,6 +45,8 @@ public class GameManager : MonoBehaviour
 
 		oneSecond = new WaitForSeconds(1f);
 		delay = new WaitForSeconds(respawnDelay);
+
+		Instantiate(brainflowPrefab);
 
 		StartCoroutine(CountdownAndSpawnBall());
 	}

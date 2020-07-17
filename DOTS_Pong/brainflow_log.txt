@@ -303,3 +303,23 @@
 [2020-07-16 22:58:09.607] [brainflow_logger] [debug] sending d to the board
 [2020-07-16 22:58:10.826] [brainflow_logger] [debug] sending b to the board
 [2020-07-16 23:08:31.423] [brainflow_logger] [debug] sending s to the board
+[2020-07-17 14:20:28.361] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-17 14:20:28.361] [brainflow_logger] [info] openning port COM4
+[2020-07-17 15:09:45.832] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-17 15:09:45.832] [brainflow_logger] [info] openning port COM4
+[2020-07-17 15:10:19.682] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-17 15:10:19.683] [brainflow_logger] [info] openning port COM4
+[2020-07-17 15:32:02.783] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-17 15:32:02.783] [brainflow_logger] [info] openning port COM4
+[2020-07-17 15:32:56.978] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-17 15:32:56.978] [brainflow_logger] [info] openning port COM4
+[2020-07-17 15:36:46.427] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-17 15:36:46.427] [brainflow_logger] [info] openning port COM4
+[2020-07-17 15:38:32.263] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-17 15:38:32.263] [brainflow_logger] [info] openning port COM4
+[2020-07-17 15:39:24.366] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-17 15:39:24.366] [brainflow_logger] [info] openning port COM4
+[2020-07-17 16:32:54.056] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-17 16:32:54.056] [brainflow_logger] [info] openning port COM4
+[2020-07-17 17:04:19.592] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-17 17:04:19.592] [brainflow_logger] [info] openning port COM4
