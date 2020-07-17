@@ -1,0 +1,305 @@
+[2020-07-16 20:25:48.451] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 20:25:48.452] [brainflow_logger] [trace] prepare session
+[2020-07-16 20:25:48.471] [brainflow_logger] [trace] start stream
+[2020-07-16 20:27:06.757] [brainflow_logger] [trace] release session
+[2020-07-16 20:27:06.757] [brainflow_logger] [trace] stop stream
+[2020-07-16 20:35:10.570] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 20:35:10.575] [brainflow_logger] [trace] prepare session
+[2020-07-16 20:35:10.594] [brainflow_logger] [trace] start stream
+[2020-07-16 20:35:30.124] [brainflow_logger] [trace] release session
+[2020-07-16 20:35:30.124] [brainflow_logger] [trace] stop stream
+[2020-07-16 20:35:35.966] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 20:35:35.966] [brainflow_logger] [trace] prepare session
+[2020-07-16 20:35:35.986] [brainflow_logger] [trace] start stream
+[2020-07-16 20:38:24.039] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 20:38:24.039] [brainflow_logger] [error] Board with id -1 and the same config already exists
+[2020-07-16 20:38:38.057] [brainflow_logger] [trace] release session
+[2020-07-16 20:38:38.057] [brainflow_logger] [trace] stop stream
+[2020-07-16 20:38:48.655] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 20:38:48.655] [brainflow_logger] [trace] prepare session
+[2020-07-16 20:38:48.674] [brainflow_logger] [trace] start stream
+[2020-07-16 20:40:27.639] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 20:40:27.639] [brainflow_logger] [error] Board with id -1 and the same config already exists
+[2020-07-16 20:40:31.988] [brainflow_logger] [trace] release session
+[2020-07-16 20:40:31.988] [brainflow_logger] [trace] stop stream
+[2020-07-16 20:40:37.950] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 20:40:37.950] [brainflow_logger] [trace] prepare session
+[2020-07-16 20:40:37.969] [brainflow_logger] [trace] start stream
+[2020-07-16 20:52:30.813] [brainflow_logger] [trace] release session
+[2020-07-16 20:52:30.813] [brainflow_logger] [trace] stop stream
+[2020-07-16 20:54:46.166] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 20:54:46.167] [brainflow_logger] [trace] prepare session
+[2020-07-16 20:54:46.188] [brainflow_logger] [trace] start stream
+[2020-07-16 20:55:13.428] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 20:55:13.428] [brainflow_logger] [error] serial port is empty
+[2020-07-16 21:20:12.021] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 21:20:12.021] [brainflow_logger] [error] Board with id -1 and the same config already exists
+[2020-07-16 21:20:16.455] [brainflow_logger] [trace] release session
+[2020-07-16 21:20:16.455] [brainflow_logger] [trace] stop stream
+[2020-07-16 21:20:24.419] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 21:20:24.419] [brainflow_logger] [trace] prepare session
+[2020-07-16 21:20:24.440] [brainflow_logger] [trace] start stream
+[2020-07-16 21:25:17.118] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 21:25:17.118] [brainflow_logger] [error] Board with id -1 and the same config already exists
+[2020-07-16 21:25:19.842] [brainflow_logger] [trace] release session
+[2020-07-16 21:25:19.842] [brainflow_logger] [trace] stop stream
+[2020-07-16 21:25:25.829] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 21:25:25.829] [brainflow_logger] [trace] prepare session
+[2020-07-16 21:25:25.850] [brainflow_logger] [trace] start stream
+[2020-07-16 21:25:45.773] [brainflow_logger] [trace] release session
+[2020-07-16 21:25:45.773] [brainflow_logger] [trace] stop stream
+[2020-07-16 21:27:35.912] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 21:27:35.912] [brainflow_logger] [trace] prepare session
+[2020-07-16 21:27:35.933] [brainflow_logger] [trace] start stream
+[2020-07-16 21:27:39.452] [brainflow_logger] [trace] release session
+[2020-07-16 21:27:39.452] [brainflow_logger] [trace] stop stream
+[2020-07-16 21:29:37.736] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 21:29:37.736] [brainflow_logger] [trace] prepare session
+[2020-07-16 21:29:37.757] [brainflow_logger] [trace] start stream
+[2020-07-16 21:29:41.364] [brainflow_logger] [trace] release session
+[2020-07-16 21:29:41.364] [brainflow_logger] [trace] stop stream
+[2020-07-16 21:30:34.984] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 21:30:34.984] [brainflow_logger] [error] serial port is empty
+[2020-07-16 21:30:45.652] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 21:30:45.652] [brainflow_logger] [error] serial port is empty
+[2020-07-16 21:33:44.028] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-07-16 21:33:44.028] [brainflow_logger] [error] serial port is empty
+[2020-07-16 21:38:18.507] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-16 21:38:18.507] [brainflow_logger] [info] openning port COM4
+[2020-07-16 21:38:18.531] [brainflow_logger] [trace] port COM4 is open
+[2020-07-16 21:38:18.534] [brainflow_logger] [trace] set port settings
+[2020-07-16 21:38:18.534] [brainflow_logger] [debug] sending v to the board
+[2020-07-16 21:38:19.567] [brainflow_logger] [debug] sending d to the board
+[2020-07-16 21:38:20.784] [brainflow_logger] [debug] sending b to the board
+[2020-07-16 21:43:24.320] [brainflow_logger] [debug] sending s to the board
+[2020-07-16 21:43:29.308] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-16 21:43:29.308] [brainflow_logger] [info] openning port COM4
+[2020-07-16 21:43:29.332] [brainflow_logger] [trace] port COM4 is open
+[2020-07-16 21:43:29.334] [brainflow_logger] [trace] set port settings
+[2020-07-16 21:43:29.334] [brainflow_logger] [debug] sending v to the board
+[2020-07-16 21:43:30.400] [brainflow_logger] [debug] sending d to the board
+[2020-07-16 21:43:31.624] [brainflow_logger] [debug] sending b to the board
+[2020-07-16 21:43:36.505] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:37.605] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:38.706] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:39.806] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:40.906] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:42.007] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:43.107] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:44.208] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:45.308] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:46.409] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:47.509] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:48.609] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:49.709] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:50.809] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:51.910] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:53.010] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:54.110] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:55.210] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:56.310] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:57.410] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:58.511] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:43:59.611] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:00.711] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:01.812] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:02.912] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:04.013] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:05.114] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:06.215] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:07.316] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:08.416] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:09.517] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:10.618] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:11.719] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:12.819] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:13.919] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:15.019] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:16.119] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:17.220] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:18.320] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:19.421] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:20.521] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:21.622] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:22.723] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:23.823] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:24.924] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:26.024] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:27.124] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:28.225] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:29.325] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:30.425] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:31.525] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:32.626] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:33.726] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:34.827] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:35.928] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:37.029] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:38.130] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:39.230] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:40.330] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:41.431] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:42.532] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:43.632] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:44.732] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:45.832] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:46.933] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:48.033] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:49.134] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:50.235] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:51.335] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:52.436] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:53.537] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:54.638] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:55.738] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:56.839] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:57.939] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:44:59.040] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:00.141] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:01.241] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:02.342] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:03.443] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:04.544] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:05.644] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:06.745] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:07.846] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:08.946] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:10.046] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:11.146] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:12.246] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:13.346] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:14.447] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:15.548] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:16.648] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:17.749] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:18.849] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:19.949] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:21.049] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:22.149] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:23.250] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:24.351] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:25.451] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:26.552] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:27.653] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:28.754] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:29.854] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:30.955] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:32.056] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:33.157] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:34.257] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:35.358] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:36.458] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:37.559] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:38.659] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:39.760] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:40.860] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:41.960] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:43.061] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:44.162] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:45.263] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:46.363] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:47.463] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:48.564] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:49.664] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:50.764] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:51.864] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:52.965] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:54.066] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:55.167] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:56.268] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:57.368] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:58.469] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:45:59.570] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:00.671] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:01.772] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:02.872] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:03.972] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:05.073] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:06.173] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:07.274] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:08.374] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:09.475] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:10.576] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:11.676] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:12.777] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:13.877] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:14.978] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:16.078] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:17.179] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:18.279] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:19.380] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:20.481] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:21.581] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:22.681] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:23.781] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:24.882] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:25.983] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:27.084] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:28.184] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:29.285] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:30.385] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:31.485] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:32.586] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:33.687] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:34.788] [brainflow_logger] [debug] unable to read 1 byte
+[2020-07-16 21:46:34.798] [brainflow_logger] [debug] sending s to the board
+[2020-07-16 22:30:26.517] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-16 22:30:26.517] [brainflow_logger] [info] openning port COM4
+[2020-07-16 22:30:26.541] [brainflow_logger] [trace] port COM4 is open
+[2020-07-16 22:30:26.544] [brainflow_logger] [trace] set port settings
+[2020-07-16 22:30:26.544] [brainflow_logger] [debug] sending v to the board
+[2020-07-16 22:30:27.612] [brainflow_logger] [debug] sending d to the board
+[2020-07-16 22:30:28.834] [brainflow_logger] [debug] sending b to the board
+[2020-07-16 22:31:34.303] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-16 22:31:34.303] [brainflow_logger] [error] Board with id 0 and the same config already exists
+[2020-07-16 22:31:43.685] [brainflow_logger] [debug] sending s to the board
+[2020-07-16 22:31:50.923] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-16 22:31:50.923] [brainflow_logger] [info] openning port COM4
+[2020-07-16 22:31:50.947] [brainflow_logger] [trace] port COM4 is open
+[2020-07-16 22:31:50.949] [brainflow_logger] [trace] set port settings
+[2020-07-16 22:31:50.950] [brainflow_logger] [debug] sending v to the board
+[2020-07-16 22:31:51.970] [brainflow_logger] [debug] sending d to the board
+[2020-07-16 22:31:53.194] [brainflow_logger] [debug] sending b to the board
+[2020-07-16 22:36:11.252] [brainflow_logger] [debug] sending s to the board
+[2020-07-16 22:36:16.777] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-16 22:36:16.777] [brainflow_logger] [info] openning port COM4
+[2020-07-16 22:36:16.801] [brainflow_logger] [trace] port COM4 is open
+[2020-07-16 22:36:16.804] [brainflow_logger] [trace] set port settings
+[2020-07-16 22:36:16.804] [brainflow_logger] [debug] sending v to the board
+[2020-07-16 22:36:17.873] [brainflow_logger] [debug] sending d to the board
+[2020-07-16 22:36:19.099] [brainflow_logger] [debug] sending b to the board
+[2020-07-16 22:37:40.398] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-16 22:37:40.398] [brainflow_logger] [error] Board with id 0 and the same config already exists
+[2020-07-16 22:37:43.439] [brainflow_logger] [debug] sending s to the board
+[2020-07-16 22:37:50.495] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-16 22:37:50.495] [brainflow_logger] [info] openning port COM4
+[2020-07-16 22:37:50.519] [brainflow_logger] [trace] port COM4 is open
+[2020-07-16 22:37:50.522] [brainflow_logger] [trace] set port settings
+[2020-07-16 22:37:50.522] [brainflow_logger] [debug] sending v to the board
+[2020-07-16 22:37:51.581] [brainflow_logger] [debug] sending d to the board
+[2020-07-16 22:37:52.802] [brainflow_logger] [debug] sending b to the board
+[2020-07-16 22:38:22.462] [brainflow_logger] [debug] sending s to the board
+[2020-07-16 22:38:33.327] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-16 22:38:33.328] [brainflow_logger] [info] openning port COM4
+[2020-07-16 22:38:33.351] [brainflow_logger] [trace] port COM4 is open
+[2020-07-16 22:38:33.354] [brainflow_logger] [trace] set port settings
+[2020-07-16 22:38:33.354] [brainflow_logger] [debug] sending v to the board
+[2020-07-16 22:38:34.380] [brainflow_logger] [debug] sending d to the board
+[2020-07-16 22:38:35.603] [brainflow_logger] [debug] sending b to the board
+[2020-07-16 22:41:05.220] [brainflow_logger] [debug] sending s to the board
+[2020-07-16 22:41:24.857] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-16 22:41:24.857] [brainflow_logger] [info] openning port COM4
+[2020-07-16 22:41:24.881] [brainflow_logger] [trace] port COM4 is open
+[2020-07-16 22:41:24.883] [brainflow_logger] [trace] set port settings
+[2020-07-16 22:41:24.883] [brainflow_logger] [debug] sending v to the board
+[2020-07-16 22:41:25.914] [brainflow_logger] [debug] sending d to the board
+[2020-07-16 22:41:27.135] [brainflow_logger] [debug] sending b to the board
+[2020-07-16 22:46:23.992] [brainflow_logger] [debug] sending s to the board
+[2020-07-16 22:58:08.529] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM4","timeout":0}
+[2020-07-16 22:58:08.529] [brainflow_logger] [info] openning port COM4
+[2020-07-16 22:58:08.553] [brainflow_logger] [trace] port COM4 is open
+[2020-07-16 22:58:08.556] [brainflow_logger] [trace] set port settings
+[2020-07-16 22:58:08.556] [brainflow_logger] [debug] sending v to the board
+[2020-07-16 22:58:09.607] [brainflow_logger] [debug] sending d to the board
+[2020-07-16 22:58:10.826] [brainflow_logger] [debug] sending b to the board
+[2020-07-16 23:08:31.423] [brainflow_logger] [debug] sending s to the board
