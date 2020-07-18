@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
 
 	public Text mainText;
 	public Text[] playerTexts;
+	public Text playerData;
 
 	Entity ballEntityPrefab;
 	EntityManager manager;
@@ -60,6 +61,11 @@ public class GameManager : MonoBehaviour
 		StartCoroutine(CountdownAndSpawnBall());
 	}
 
+	public void updatePlayerData(string text)
+    {
+		playerData.text = text;
+    }
+
 	IEnumerator CountdownAndSpawnBall()
 	{
 		mainText.text = "Get Ready";
@@ -94,5 +100,6 @@ public class GameManager : MonoBehaviour
 
 		manager.AddComponentData(ball, velocity);
 	}
+
 }
 

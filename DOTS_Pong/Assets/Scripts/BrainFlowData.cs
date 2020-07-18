@@ -10,10 +10,13 @@ using brainflow;
 public class BrainFlowData : MonoBehaviour
 {
     private BoardShim board_shim = null;
+    private int board_id = (int)BoardIds.SYNTHETIC_BOARD;
     private int samplingRate = 0;
     private int[] eegChannels = null;
+    private bool isSynthetic = true;
 
-    public int numChan = 2;
+    public static int numChan = 8;
+    public static double[] ratios = new double[numChan];
 
     // Start is called before the first frame update
     void Start()
@@ -25,9 +28,13 @@ public class BrainFlowData : MonoBehaviour
             BoardShim.enable_dev_board_logger();
 
             BrainFlowInputParams input_params = new BrainFlowInputParams();
-            int board_id = (int)BoardIds.SYNTHETIC_BOARD;
-            input_params.serial_port = "COM4";
-            board_id = 0;
+           
+            if (!isSynthetic)
+            {
+                input_params.serial_port = "COM4";
+                board_id = 0;
+            }
+            
             board_shim = new BoardShim(board_id, input_params);
             board_shim.prepare_session();
             board_shim.start_stream(450000, "file://brainflow_data.csv:w");
@@ -63,8 +70,10 @@ public class BrainFlowData : MonoBehaviour
                 data.GetRow(eegChannels[i]).Length, samplingRate, (int)WindowFunctions.HANNING);
             double band_power_alpha = DataFilter.get_band_power(psd, 7.0, 13.0);
             double band_power_beta = DataFilter.get_band_power(psd, 14.0, 30.0);
-            double ratio = (band_power_alpha / band_power_beta);
-            Debug.Log("Channel " + i + " | Alpha/Beta Ratio:" + ratio);
+            //double ratio = (band_power_alpha / band_power_beta);
+            
+            //Debug.Log("Channel " + i + " | Alpha/Beta Ratio:" + ratio);
+            ratios[i] = band_power_alpha / band_power_beta;
         }
     }
 
