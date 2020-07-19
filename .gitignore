@@ -34,3 +34,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+DOTS_Pong/brainflow_data.csv
+DOTS_Pong/brainflow_log.txt

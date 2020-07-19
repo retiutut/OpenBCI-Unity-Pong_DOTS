@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
 
 	public Text mainText;
 	public Text[] playerTexts;
-	public Text playerData;
+	public Text[] playerData;
 
 	Entity ballEntityPrefab;
 	EntityManager manager;
@@ -61,10 +61,10 @@ public class GameManager : MonoBehaviour
 		StartCoroutine(CountdownAndSpawnBall());
 	}
 
-	public void updatePlayerData(string text)
+	public void updatePlayerData(int channel, string text)
     {
-		playerData.text = text;
-    }
+		playerData[channel].text = text;
+	}
 
 	IEnumerator CountdownAndSpawnBall()
 	{
