@@ -9889,3 +9889,23 @@
 [2020-08-14 22:10:31.962] [brainflow_logger] [trace] start stream
 [2020-08-14 22:10:36.666] [brainflow_logger] [trace] release session
 [2020-08-14 22:10:36.666] [brainflow_logger] [trace] stop stream
+[2020-08-14 22:53:32.313] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-14 22:53:32.313] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-14 22:53:32.313] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-14 22:53:32.313] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-14 22:53:48.995] [brainflow_logger] [error] failed to Open Ganglion Device 15
+[2020-08-14 22:54:19.687] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-14 22:54:19.687] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-14 22:54:19.687] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-14 22:54:19.687] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-14 22:54:36.305] [brainflow_logger] [error] failed to Open Ganglion Device 15
+[2020-08-14 22:55:15.948] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-14 22:55:15.948] [brainflow_logger] [trace] prepare session
+[2020-08-14 22:55:15.967] [brainflow_logger] [trace] start stream
+[2020-08-14 22:55:19.775] [brainflow_logger] [trace] release session
+[2020-08-14 22:55:19.775] [brainflow_logger] [trace] stop stream
+[2020-08-14 22:55:48.759] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-14 22:55:48.759] [brainflow_logger] [trace] prepare session
+[2020-08-14 22:55:48.779] [brainflow_logger] [trace] start stream
+[2020-08-14 23:20:25.081] [brainflow_logger] [trace] release session
+[2020-08-14 23:20:25.081] [brainflow_logger] [trace] stop stream

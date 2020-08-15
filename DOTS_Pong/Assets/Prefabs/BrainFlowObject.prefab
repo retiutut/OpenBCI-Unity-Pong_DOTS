@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2094655784648370432}
   - component: {fileID: 2094655784648370435}
+  - component: {fileID: 8718875577754649533}
   m_Layer: 0
   m_Name: BrainFlowObject
   m_TagString: BrainFlowObject
@@ -43,4 +44,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ee7bf1591525974ea3b945d000d2672, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numChan: 2
+--- !u!114 &8718875577754649533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094655784648370434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bfaa4929545d1b4aa18ed0ea778a9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

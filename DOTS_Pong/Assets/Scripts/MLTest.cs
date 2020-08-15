@@ -1,6 +1,9 @@
 ﻿using Accord.Statistics.Models.Markov;
 using Accord.Statistics.Models.Markov.Learning;
+
+using Accord.MachineLearning;
 using Accord.Math;
+using Accord;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
