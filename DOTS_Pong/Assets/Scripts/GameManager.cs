@@ -8,9 +8,13 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
 	public static GameManager main;
+	public Canvas renderCanvas;
 
 	public GameObject ballPrefab;
 	public GameObject brainflowPrefab;
+	public Text mainTextPrefab;
+	private Text mainText;
+	public Dropdown boardSelect;
 
 	public float xBound = 3f;
 	public float yBound = 3f;
@@ -18,17 +22,20 @@ public class GameManager : MonoBehaviour
 	public float respawnDelay = 2f;
 	public int[] playerScores;
 
-	public Text mainText;
 	public Text[] playerTexts;
 	public Text[] playerData;
+	public Text playerAccelData;
 
 	Entity ballEntityPrefab;
 	EntityManager manager;
 
 	WaitForSeconds oneSecond;
 	WaitForSeconds delay;
+	WaitForSeconds halfSecond;
+    private Vector3 pos;
+    private Quaternion rot;
 
-	private void Awake()
+    private void Awake()
 	{
 		if (main != null && main != this)
 		{
@@ -45,11 +52,18 @@ public class GameManager : MonoBehaviour
 		ballEntityPrefab = GameObjectConversionUtility.ConvertGameObjectHierarchy(ballPrefab, settings);
 
 		oneSecond = new WaitForSeconds(1f);
+		halfSecond = new WaitForSeconds(.5f);
 		delay = new WaitForSeconds(respawnDelay);
 
-		Instantiate(brainflowPrefab);
+        Instantiate(brainflowPrefab);
 
-		StartCoroutine(CountdownAndSpawnBall());
+
+		mainText = Instantiate(mainTextPrefab, Vector3.zero, Quaternion.identity) as Text;
+		mainText.transform.SetParent(renderCanvas.transform, false);
+		mainText.text = "";
+		mainText.gameObject.SetActive(false);
+
+		StartCoroutine(CountdownAndSpawnBall(mainText));
 	}
 
 	public void PlayerScored(int playerID)
@@ -58,7 +72,7 @@ public class GameManager : MonoBehaviour
 		for (int i = 0; i < playerScores.Length && i < playerTexts.Length; i++)
 			playerTexts[i].text = playerScores[i].ToString();
 
-		StartCoroutine(CountdownAndSpawnBall());
+		StartCoroutine(CountdownAndSpawnBall(mainText));
 	}
 
 	public void updatePlayerData(int channel, string text)
@@ -66,21 +80,30 @@ public class GameManager : MonoBehaviour
 		playerData[channel].text = text;
 	}
 
-	IEnumerator CountdownAndSpawnBall()
+	public void updatePlayerAccelData(string text)
+    {
+		playerAccelData.text = text;
+    }
+
+	IEnumerator CountdownAndSpawnBall(Text t)
 	{
-		mainText.text = "Get Ready";
+		t.gameObject.SetActive(true);
+		t.text = "Get Ready";
 		yield return delay;
 
-		mainText.text = "3";
+		t.text = "3";
 		yield return oneSecond;
 
-		mainText.text = "2";
+		t.text = "2";
 		yield return oneSecond;
 
-		mainText.text = "1";
+		t.text = "1";
 		yield return oneSecond;
 
-		mainText.text = "";
+		t.text = "Meow!";
+		yield return halfSecond;
+
+		t.gameObject.SetActive(false);
 
 		SpawnBall();
 	}
@@ -101,5 +124,28 @@ public class GameManager : MonoBehaviour
 		manager.AddComponentData(ball, velocity);
 	}
 
+	void Destroy()
+	{
+		//boardSelect.onValueChanged.RemoveAllListeners();
+	}
+
+	private void myDropdownValueChangedHandler(Dropdown target)
+	{
+		//Debug.Log("selected: " + target.value);
+	}
+
+	public void SetDropdownIndex(int index)
+	{
+		//boardSelect.value = index;
+	}
+
+    public void Start()
+    {
+		/*
+		boardSelect.onValueChanged.AddListener(delegate {
+			myDropdownValueChangedHandler(boardSelect);
+		});
+		*/
+	}
 }
 

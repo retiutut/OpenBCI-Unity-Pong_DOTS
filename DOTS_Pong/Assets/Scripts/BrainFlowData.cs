@@ -7,6 +7,7 @@ using Accord;
 using Accord.Math;
 using brainflow;
 using System.Runtime.CompilerServices;
+using UnityEditor;
 
 public class BrainFlowData : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class BrainFlowData : MonoBehaviour
     private int board_id = (int)BoardIds.SYNTHETIC_BOARD;
     private int samplingRate = 0;
     private int[] eegChannels = null;
+    private int[] accelChannels = null;
     private bool isSynthetic = false;
     private bool isGanglion = true;
 
@@ -21,6 +23,7 @@ public class BrainFlowData : MonoBehaviour
     public static double[] ratios = new double[numChan];
     private double[] minimums = new double[numChan];
     private double[] maximums = new double[numChan];
+    public static double[] accelData = null;
 
     // Start is called before the first frame update
     void Start()
@@ -48,10 +51,12 @@ public class BrainFlowData : MonoBehaviour
 
             board_shim = new BoardShim(board_id, input_params);
             board_shim.prepare_session();
+            //board_shim.config_board("n");
             board_shim.start_stream(450000, "file://brainflow_data.csv:w");
 
             samplingRate = BoardShim.get_sampling_rate(board_id);
             eegChannels = BoardShim.get_eeg_channels(board_id);
+            accelChannels = BoardShim.get_accel_channels(board_id);
             Debug.Log("Brainflow streaming was started");
         }
         catch (BrainFlowException e)
@@ -77,8 +82,9 @@ public class BrainFlowData : MonoBehaviour
             return;
         }
 
+        //accelData = data.GetRow(accelChannels[0]);
+        //Debug.Log(String.Format("[{0}]", string.Join(", ", accelData)));
 
-        // for demo apply different filters to different channels
         double[] filtered;
         for (int i = 0; i < numChan; i++)
         {
@@ -135,7 +141,7 @@ public class BrainFlowData : MonoBehaviour
             //output_adjusted = ((-0.1d / (output_normalized * 255d)) + 255d);
             ratios[i] = output_normalized;
 
-            //Debug.Log("CHAN " + i + " | output_norm = " + output_normalized);
+            Debug.Log("CHAN " + i + " | output_norm = " + output_normalized);
         }
 
 

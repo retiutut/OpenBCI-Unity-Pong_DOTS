@@ -9273,3 +9273,503 @@
 [2020-07-19 18:08:11.054] [brainflow_logger] [info] use command b to start streaming
 [2020-07-19 18:08:11.121] [brainflow_logger] [debug] start streaming
 [2020-07-19 18:10:30.692] [brainflow_logger] [error] failed to stop streaming 15
+[2020-07-20 13:07:11.753] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 13:07:11.754] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 13:07:11.754] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 13:07:11.754] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 13:07:13.300] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 13:07:13.380] [brainflow_logger] [debug] start streaming
+[2020-07-20 13:47:58.379] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 13:47:58.379] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 13:47:58.379] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 13:47:58.379] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 13:47:59.846] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 13:47:59.909] [brainflow_logger] [debug] start streaming
+[2020-07-20 13:51:08.511] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 13:51:08.511] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 13:51:08.511] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 13:51:08.511] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 13:51:10.342] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 13:51:10.404] [brainflow_logger] [debug] start streaming
+[2020-07-20 17:41:09.470] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 17:41:09.470] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 17:41:09.470] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 17:41:09.471] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 17:41:09.471] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-07-20 17:41:40.648] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 17:41:40.649] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 17:41:40.649] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 17:41:40.649] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 17:41:40.649] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-07-20 17:42:24.471] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 17:42:24.472] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 17:42:24.472] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 17:42:24.472] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 17:42:25.960] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 17:42:26.038] [brainflow_logger] [debug] start streaming
+[2020-07-20 17:42:34.747] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 17:42:34.747] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 17:42:34.747] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 17:42:34.747] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 17:42:36.253] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 17:42:36.317] [brainflow_logger] [debug] start streaming
+[2020-07-20 17:46:47.615] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 17:46:47.615] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 17:46:47.615] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 17:46:47.615] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 17:46:49.120] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 17:46:49.183] [brainflow_logger] [debug] start streaming
+[2020-07-20 17:50:47.272] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 17:50:47.272] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 17:50:47.272] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 17:50:47.272] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 17:50:48.693] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 17:50:48.755] [brainflow_logger] [debug] start streaming
+[2020-07-20 17:51:11.619] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 17:51:11.619] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 17:51:11.619] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 17:51:11.619] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 17:51:13.465] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 17:51:13.520] [brainflow_logger] [debug] start streaming
+[2020-07-20 17:51:41.019] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 17:51:41.020] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 17:51:41.020] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 17:51:41.020] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 17:51:42.443] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 17:51:42.496] [brainflow_logger] [debug] start streaming
+[2020-07-20 17:52:53.974] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 17:52:53.974] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 17:52:53.974] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 17:52:53.974] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 17:52:55.453] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 17:52:55.516] [brainflow_logger] [debug] start streaming
+[2020-07-20 17:54:54.917] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 17:54:54.917] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 17:54:54.917] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 17:54:54.917] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 17:54:56.489] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 17:54:56.552] [brainflow_logger] [debug] start streaming
+[2020-07-20 17:55:53.026] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 17:55:53.026] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 17:55:53.026] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 17:55:53.026] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 17:55:54.753] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 17:55:54.817] [brainflow_logger] [debug] start streaming
+[2020-07-20 17:57:24.806] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 17:57:24.806] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 17:57:24.806] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 17:57:24.806] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 17:57:26.208] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 17:57:26.262] [brainflow_logger] [debug] start streaming
+[2020-07-20 18:04:19.877] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 18:04:19.877] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 18:04:19.877] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 18:04:19.877] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 18:04:21.404] [brainflow_logger] [debug] Trying to config Ganglion with n
+[2020-07-20 18:04:21.449] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 18:04:21.513] [brainflow_logger] [debug] start streaming
+[2020-07-20 18:05:19.193] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 18:05:19.193] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 18:05:19.193] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 18:05:19.193] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 18:05:20.686] [brainflow_logger] [debug] Trying to config Ganglion with n
+[2020-07-20 18:05:20.733] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 18:05:20.785] [brainflow_logger] [debug] start streaming
+[2020-07-20 18:12:07.322] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 18:12:07.323] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 18:12:07.323] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 18:12:07.323] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 18:12:08.727] [brainflow_logger] [debug] Trying to config Ganglion with n
+[2020-07-20 18:12:08.772] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 18:12:08.824] [brainflow_logger] [debug] start streaming
+[2020-07-20 18:13:08.520] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 18:13:08.520] [brainflow_logger] [error] Board with id 1 and the same config already exists
+[2020-07-20 18:14:04.899] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 18:14:04.899] [brainflow_logger] [error] Board with id 1 and the same config already exists
+[2020-07-20 18:15:40.481] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 18:15:40.481] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 18:15:40.481] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 18:15:40.481] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 18:15:42.019] [brainflow_logger] [debug] Trying to config Ganglion with n
+[2020-07-20 18:15:42.064] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 18:15:42.128] [brainflow_logger] [debug] start streaming
+[2020-07-20 18:17:59.276] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 18:17:59.276] [brainflow_logger] [error] Board with id 1 and the same config already exists
+[2020-07-20 18:18:10.910] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 18:18:10.911] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 18:18:10.911] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 18:18:10.911] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 18:18:12.454] [brainflow_logger] [debug] Trying to config Ganglion with n
+[2020-07-20 18:18:12.500] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 18:18:12.568] [brainflow_logger] [debug] start streaming
+[2020-07-20 18:20:05.423] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 18:20:05.423] [brainflow_logger] [error] Board with id 1 and the same config already exists
+[2020-07-20 18:20:30.383] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 18:20:30.383] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 18:20:30.383] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 18:20:30.383] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 18:20:31.792] [brainflow_logger] [debug] Trying to config Ganglion with n
+[2020-07-20 18:20:31.836] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 18:20:31.899] [brainflow_logger] [debug] start streaming
+[2020-07-20 18:22:07.852] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 18:22:07.852] [brainflow_logger] [error] Board with id 1 and the same config already exists
+[2020-07-20 18:22:16.005] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 18:22:16.005] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 18:22:16.005] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 18:22:16.006] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 18:22:17.568] [brainflow_logger] [debug] Trying to config Ganglion with n
+[2020-07-20 18:22:17.612] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 18:22:17.666] [brainflow_logger] [debug] start streaming
+[2020-07-20 19:07:47.772] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 19:07:47.772] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 19:07:47.772] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 19:07:47.772] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 19:07:49.205] [brainflow_logger] [debug] Trying to config Ganglion with n
+[2020-07-20 19:07:49.253] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 19:07:49.313] [brainflow_logger] [debug] start streaming
+[2020-07-20 19:08:26.925] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 19:08:26.926] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 19:08:26.926] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 19:08:26.926] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 19:08:28.407] [brainflow_logger] [debug] Trying to config Ganglion with n
+[2020-07-20 19:08:28.451] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 19:08:28.506] [brainflow_logger] [debug] start streaming
+[2020-07-20 19:09:14.209] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 19:09:14.209] [brainflow_logger] [error] Board with id 1 and the same config already exists
+[2020-07-20 19:09:43.210] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 19:09:43.210] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 19:09:43.210] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 19:09:43.210] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 19:09:44.928] [brainflow_logger] [debug] Trying to config Ganglion with n
+[2020-07-20 19:09:44.972] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 19:09:45.028] [brainflow_logger] [debug] start streaming
+[2020-07-20 19:13:04.723] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-20 19:13:04.723] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-20 19:13:04.723] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-20 19:13:04.723] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-20 19:13:06.482] [brainflow_logger] [debug] Trying to config Ganglion with n
+[2020-07-20 19:13:06.528] [brainflow_logger] [info] use command b to start streaming
+[2020-07-20 19:13:06.593] [brainflow_logger] [debug] start streaming
+[2020-07-27 18:57:59.401] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-07-27 18:57:59.402] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-07-27 18:57:59.402] [brainflow_logger] [debug] ganglionlib initialized
+[2020-07-27 18:57:59.402] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-07-27 18:57:59.402] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-02 19:39:46.112] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-02 19:39:46.112] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-02 19:39:46.112] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-02 19:39:46.112] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-02 19:39:46.112] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-02 20:31:04.400] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-02 20:31:04.400] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-02 20:31:04.400] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-02 20:31:04.400] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-02 20:31:04.400] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 13:47:27.215] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 13:47:27.216] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 13:47:27.216] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 13:47:27.216] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 13:47:27.216] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 13:48:22.114] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 13:48:22.114] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 13:48:22.114] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 13:48:22.114] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 13:48:22.114] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:06:25.867] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:06:25.867] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:06:25.867] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:06:25.867] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:06:25.867] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:10:50.302] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:10:50.302] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:10:50.302] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:10:50.302] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:10:50.302] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:11:09.441] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:11:09.441] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:11:09.441] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:11:09.441] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:11:09.441] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:12:55.272] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:12:55.272] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:12:55.272] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:12:55.272] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:12:55.272] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:14:58.547] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:14:58.547] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:14:58.547] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:14:58.547] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:14:58.547] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:15:08.082] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:15:08.082] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:15:08.082] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:15:08.082] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:15:08.082] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:16:12.888] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:16:12.888] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:16:12.888] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:16:12.888] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:16:12.888] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:19:54.714] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:19:54.714] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:19:54.714] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:19:54.714] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:19:54.714] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:21:08.699] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:21:08.699] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:21:08.699] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:21:08.699] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:21:08.699] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:21:53.652] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:21:53.652] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:21:53.652] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:21:53.652] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:21:53.652] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:22:51.013] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:22:51.014] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:22:51.014] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:22:51.014] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:22:51.014] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:23:20.147] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:23:20.147] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:23:20.147] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:23:20.147] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:23:20.147] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:25:39.511] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:25:39.511] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:25:39.511] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:25:39.511] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:25:39.511] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:27:01.423] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:27:01.423] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:27:01.423] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:27:01.423] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:27:01.423] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:27:42.007] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:27:42.007] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:27:42.007] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:27:42.008] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:27:42.008] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:27:52.462] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:27:52.462] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:27:52.462] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:27:52.462] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:27:52.462] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:29:02.067] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:29:02.067] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:29:02.067] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:29:02.067] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:29:02.067] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:29:55.084] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:29:55.084] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:29:55.084] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:29:55.084] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:29:55.084] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:30:58.700] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:30:58.700] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:30:58.700] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:30:58.700] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:30:58.700] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:32:01.931] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:32:01.932] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:32:01.932] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:32:01.932] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:32:01.932] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:34:07.354] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:34:07.354] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:34:07.354] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:34:07.354] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:34:07.354] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:40:33.386] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:40:33.386] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:40:33.386] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:40:33.386] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:40:33.386] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:41:02.033] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:41:02.033] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:41:02.033] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:41:02.033] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:41:02.033] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:42:52.684] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:42:52.684] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:42:52.684] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:42:52.684] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:42:52.684] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:43:54.046] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:43:54.046] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:43:54.046] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:43:54.046] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:43:54.046] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 14:58:15.884] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 14:58:15.884] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 14:58:15.884] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 14:58:15.884] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 14:58:15.884] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 16:49:08.815] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 16:49:08.815] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 16:49:08.815] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 16:49:08.815] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 16:49:08.815] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 17:25:24.638] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 17:25:24.638] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 17:25:24.638] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 17:25:24.638] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 17:25:24.638] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 17:28:57.696] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 17:28:57.696] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 17:28:57.696] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 17:28:57.696] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 17:28:57.697] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 20:16:35.076] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 20:16:35.076] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 20:16:35.076] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 20:16:35.076] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 20:16:35.076] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 20:20:06.316] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 20:20:06.316] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 20:20:06.316] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 20:20:06.316] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 20:20:06.316] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 20:31:19.469] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 20:31:19.469] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 20:31:19.469] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 20:31:19.469] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 20:31:19.469] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 20:40:22.216] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 20:40:22.216] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 20:40:22.216] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 20:40:22.216] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 20:40:22.216] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 20:41:26.736] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 20:41:26.736] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 20:41:26.736] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 20:41:26.736] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 20:41:26.736] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 20:44:03.659] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 20:44:03.659] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 20:44:03.659] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 20:44:03.659] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 20:44:03.659] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 20:46:12.737] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 20:46:12.737] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 20:46:12.737] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 20:46:12.737] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 20:46:12.737] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 20:47:01.377] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 20:47:01.377] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 20:47:01.377] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 20:47:01.377] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 20:47:01.377] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 20:49:03.824] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 20:49:03.824] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 20:49:03.824] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 20:49:03.824] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 20:49:03.824] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 20:51:28.599] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 20:51:28.599] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 20:51:28.599] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 20:51:28.599] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 20:51:28.599] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 20:55:48.430] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 20:55:48.430] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 20:55:48.430] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 20:55:48.430] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 20:55:48.430] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 20:59:37.967] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 20:59:37.967] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 20:59:37.967] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 20:59:37.967] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 20:59:37.967] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 21:00:33.967] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-04 21:00:33.968] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-04 21:00:33.968] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-04 21:00:33.968] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-04 21:00:33.968] [brainflow_logger] [error] failed to Open Ganglion Device 18
+[2020-08-04 21:01:18.137] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-04 21:01:18.137] [brainflow_logger] [trace] prepare session
+[2020-08-04 21:01:18.175] [brainflow_logger] [trace] start stream
+[2020-08-04 21:01:55.278] [brainflow_logger] [trace] release session
+[2020-08-04 21:01:55.278] [brainflow_logger] [trace] stop stream
+[2020-08-04 21:02:02.109] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-04 21:02:02.109] [brainflow_logger] [trace] prepare session
+[2020-08-04 21:02:02.147] [brainflow_logger] [trace] start stream
+[2020-08-04 21:15:06.445] [brainflow_logger] [trace] release session
+[2020-08-04 21:15:06.445] [brainflow_logger] [trace] stop stream
+[2020-08-04 21:16:03.297] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-04 21:16:03.298] [brainflow_logger] [trace] prepare session
+[2020-08-04 21:16:03.336] [brainflow_logger] [trace] start stream
+[2020-08-04 21:16:55.828] [brainflow_logger] [trace] release session
+[2020-08-04 21:16:55.828] [brainflow_logger] [trace] stop stream
+[2020-08-04 21:17:01.540] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-04 21:17:01.540] [brainflow_logger] [trace] prepare session
+[2020-08-04 21:17:01.583] [brainflow_logger] [trace] start stream
+[2020-08-04 21:17:03.654] [brainflow_logger] [trace] release session
+[2020-08-04 21:17:03.654] [brainflow_logger] [trace] stop stream
+[2020-08-04 21:17:32.312] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-04 21:17:32.312] [brainflow_logger] [trace] prepare session
+[2020-08-04 21:17:32.350] [brainflow_logger] [trace] start stream
+[2020-08-04 21:18:01.032] [brainflow_logger] [trace] release session
+[2020-08-04 21:18:01.032] [brainflow_logger] [trace] stop stream
+[2020-08-04 21:18:06.908] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-04 21:18:06.908] [brainflow_logger] [trace] prepare session
+[2020-08-04 21:18:06.946] [brainflow_logger] [trace] start stream
+[2020-08-04 21:21:39.561] [brainflow_logger] [trace] release session
+[2020-08-04 21:21:39.561] [brainflow_logger] [trace] stop stream
+[2020-08-04 21:22:59.236] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-04 21:22:59.236] [brainflow_logger] [trace] prepare session
+[2020-08-04 21:22:59.274] [brainflow_logger] [trace] start stream
+[2020-08-04 21:25:19.917] [brainflow_logger] [trace] release session
+[2020-08-04 21:25:19.917] [brainflow_logger] [trace] stop stream
+[2020-08-14 11:07:29.893] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-14 11:07:29.894] [brainflow_logger] [trace] prepare session
+[2020-08-14 11:07:29.947] [brainflow_logger] [trace] start stream
+[2020-08-14 11:09:40.355] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-14 11:09:40.355] [brainflow_logger] [error] Board with id -1 and the same config already exists
+[2020-08-14 11:11:11.690] [brainflow_logger] [trace] release session
+[2020-08-14 11:11:11.691] [brainflow_logger] [trace] stop stream
+[2020-08-14 11:14:19.696] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-14 11:14:19.697] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-14 11:14:19.697] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-14 11:14:19.697] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-14 11:14:36.260] [brainflow_logger] [error] failed to Open Ganglion Device 15
+[2020-08-14 11:16:19.906] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-14 11:16:19.906] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-14 11:16:19.907] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-14 11:16:19.907] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-14 11:16:36.420] [brainflow_logger] [error] failed to Open Ganglion Device 15
+[2020-08-14 11:18:53.114] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-14 11:18:53.114] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-14 11:18:53.114] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-14 11:18:53.114] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-14 11:19:09.712] [brainflow_logger] [error] failed to Open Ganglion Device 15
+[2020-08-14 11:23:16.694] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-14 11:23:16.695] [brainflow_logger] [trace] prepare session
+[2020-08-14 11:23:16.741] [brainflow_logger] [trace] start stream
+[2020-08-14 11:23:56.943] [brainflow_logger] [trace] release session
+[2020-08-14 11:23:56.943] [brainflow_logger] [trace] stop stream
+[2020-08-14 11:25:44.708] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-14 11:25:44.708] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-14 11:25:44.708] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-14 11:25:44.708] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-14 11:26:01.228] [brainflow_logger] [error] failed to Open Ganglion Device 15
+[2020-08-14 11:28:58.496] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-14 11:28:58.496] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-14 11:28:58.496] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-14 11:28:58.496] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-14 11:29:22.571] [brainflow_logger] [error] failed to Open Ganglion Device 15
+[2020-08-14 11:32:17.065] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-14 11:32:17.065] [brainflow_logger] [trace] prepare session
+[2020-08-14 11:32:17.086] [brainflow_logger] [trace] start stream
+[2020-08-14 11:34:12.508] [brainflow_logger] [trace] release session
+[2020-08-14 11:34:12.508] [brainflow_logger] [trace] stop stream
+[2020-08-14 14:48:31.056] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-14 14:48:31.056] [brainflow_logger] [trace] prepare session
+[2020-08-14 14:48:31.077] [brainflow_logger] [trace] start stream
+[2020-08-14 14:48:36.883] [brainflow_logger] [trace] release session
+[2020-08-14 14:48:36.883] [brainflow_logger] [trace] stop stream
+[2020-08-14 14:49:25.444] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2020-08-14 14:49:25.444] [brainflow_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2020-08-14 14:49:25.444] [brainflow_logger] [debug] ganglionlib initialized
+[2020-08-14 14:49:25.444] [brainflow_logger] [info] mac address is not specified, try to find ganglion without it
+[2020-08-14 14:49:27.347] [brainflow_logger] [info] use command b to start streaming
+[2020-08-14 14:49:27.397] [brainflow_logger] [debug] start streaming
