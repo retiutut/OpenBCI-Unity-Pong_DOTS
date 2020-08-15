@@ -16,8 +16,8 @@ public class BrainFlowData : MonoBehaviour
     private int samplingRate = 0;
     private int[] eegChannels = null;
     private int[] accelChannels = null;
-    private bool isSynthetic = true;
-    private bool isGanglion = false;
+    private bool isSynthetic = false;
+    private bool isGanglion = true;
 
     public static int numChan = 2;
     public static double[] ratios = new double[numChan];
@@ -141,7 +141,7 @@ public class BrainFlowData : MonoBehaviour
             //output_adjusted = ((-0.1d / (output_normalized * 255d)) + 255d);
             ratios[i] = output_normalized;
 
-            //Debug.Log("CHAN " + i + " | output_norm = " + output_normalized);
+            Debug.Log("CHAN " + i + " | output_norm = " + output_normalized);
         }
 
 
