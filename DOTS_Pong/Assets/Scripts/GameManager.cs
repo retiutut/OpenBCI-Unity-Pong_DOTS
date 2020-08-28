@@ -4,6 +4,7 @@ using Unity.Mathematics;
 using Unity.Physics;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,7 +15,6 @@ public class GameManager : MonoBehaviour
 	public GameObject brainflowPrefab;
 	public Text mainTextPrefab;
 	private Text mainText;
-	public Dropdown boardSelect;
 
 	public float xBound = 3f;
 	public float yBound = 3f;
@@ -129,16 +129,6 @@ public class GameManager : MonoBehaviour
 		//boardSelect.onValueChanged.RemoveAllListeners();
 	}
 
-	private void myDropdownValueChangedHandler(Dropdown target)
-	{
-		//Debug.Log("selected: " + target.value);
-	}
-
-	public void SetDropdownIndex(int index)
-	{
-		//boardSelect.value = index;
-	}
-
     public void Start()
     {
 		/*
@@ -146,6 +136,14 @@ public class GameManager : MonoBehaviour
 			myDropdownValueChangedHandler(boardSelect);
 		});
 		*/
+	}
+
+	void Update()
+	{
+		if (Input.GetKey("escape"))
+		{
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+		}
 	}
 }
 

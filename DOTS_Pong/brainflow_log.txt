@@ -9909,3 +9909,63 @@
 [2020-08-14 22:55:48.779] [brainflow_logger] [trace] start stream
 [2020-08-14 23:20:25.081] [brainflow_logger] [trace] release session
 [2020-08-14 23:20:25.081] [brainflow_logger] [trace] stop stream
+[2020-08-27 20:51:22.809] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-27 20:51:22.810] [brainflow_logger] [trace] prepare session
+[2020-08-27 20:51:22.830] [brainflow_logger] [trace] start stream
+[2020-08-27 20:51:37.984] [brainflow_logger] [trace] release session
+[2020-08-27 20:51:37.984] [brainflow_logger] [trace] stop stream
+[2020-08-27 21:16:14.446] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-27 21:16:14.446] [brainflow_logger] [trace] prepare session
+[2020-08-27 21:16:14.471] [brainflow_logger] [trace] start stream
+[2020-08-27 21:16:19.574] [brainflow_logger] [trace] release session
+[2020-08-27 21:16:19.574] [brainflow_logger] [trace] stop stream
+[2020-08-27 21:54:54.350] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-27 21:54:54.350] [brainflow_logger] [trace] prepare session
+[2020-08-27 21:54:54.370] [brainflow_logger] [trace] start stream
+[2020-08-27 21:54:59.709] [brainflow_logger] [trace] release session
+[2020-08-27 21:54:59.709] [brainflow_logger] [trace] stop stream
+[2020-08-27 22:14:41.365] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-27 22:14:41.365] [brainflow_logger] [trace] prepare session
+[2020-08-27 22:14:41.386] [brainflow_logger] [trace] start stream
+[2020-08-27 22:14:54.440] [brainflow_logger] [trace] release session
+[2020-08-27 22:14:54.440] [brainflow_logger] [trace] stop stream
+[2020-08-27 22:27:27.777] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-27 22:27:27.777] [brainflow_logger] [trace] prepare session
+[2020-08-27 22:27:27.798] [brainflow_logger] [trace] start stream
+[2020-08-27 22:27:36.981] [brainflow_logger] [trace] release session
+[2020-08-27 22:27:36.981] [brainflow_logger] [trace] stop stream
+[2020-08-27 22:48:17.983] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-27 22:48:17.983] [brainflow_logger] [trace] prepare session
+[2020-08-27 22:48:18.002] [brainflow_logger] [trace] start stream
+[2020-08-27 22:58:01.164] [brainflow_logger] [trace] release session
+[2020-08-27 22:58:01.164] [brainflow_logger] [trace] stop stream
+[2020-08-27 22:59:36.355] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-27 22:59:36.355] [brainflow_logger] [trace] prepare session
+[2020-08-27 22:59:36.374] [brainflow_logger] [trace] start stream
+[2020-08-27 22:59:38.906] [brainflow_logger] [trace] release session
+[2020-08-27 22:59:38.906] [brainflow_logger] [trace] stop stream
+[2020-08-27 23:02:17.112] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-27 23:02:17.112] [brainflow_logger] [trace] prepare session
+[2020-08-27 23:02:17.132] [brainflow_logger] [trace] start stream
+[2020-08-27 23:02:24.099] [brainflow_logger] [trace] release session
+[2020-08-27 23:02:24.099] [brainflow_logger] [trace] stop stream
+[2020-08-27 23:02:32.517] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-27 23:02:32.518] [brainflow_logger] [trace] prepare session
+[2020-08-27 23:02:32.518] [brainflow_logger] [trace] start stream
+[2020-08-27 23:02:34.719] [brainflow_logger] [trace] release session
+[2020-08-27 23:02:34.719] [brainflow_logger] [trace] stop stream
+[2020-08-27 23:05:30.109] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-27 23:05:30.109] [brainflow_logger] [trace] prepare session
+[2020-08-27 23:05:30.129] [brainflow_logger] [trace] start stream
+[2020-08-27 23:05:32.179] [brainflow_logger] [trace] release session
+[2020-08-27 23:05:32.179] [brainflow_logger] [trace] stop stream
+[2020-08-27 23:07:15.335] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-27 23:07:15.335] [brainflow_logger] [trace] prepare session
+[2020-08-27 23:07:15.356] [brainflow_logger] [trace] start stream
+[2020-08-27 23:07:18.067] [brainflow_logger] [trace] release session
+[2020-08-27 23:07:18.067] [brainflow_logger] [trace] stop stream
+[2020-08-27 23:20:27.483] [brainflow_logger] [info] incomming json: {"ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2020-08-27 23:20:27.483] [brainflow_logger] [trace] prepare session
+[2020-08-27 23:20:27.503] [brainflow_logger] [trace] start stream
+[2020-08-27 23:20:30.037] [brainflow_logger] [trace] release session
+[2020-08-27 23:20:30.037] [brainflow_logger] [trace] stop stream
