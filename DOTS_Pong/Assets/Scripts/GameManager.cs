@@ -44,7 +44,9 @@ public class GameManager : MonoBehaviour
 		}
 
 		main = this;
-		playerScores = new int[2];
+        playerScores = new int[2];
+
+		Debug.Log("Game Settings: " + MainMenu.playerSelect + " , " + MainMenu.boardSelect + " , " + MainMenu.controlMethod);
 
 		manager = World.DefaultGameObjectInjectionWorld.EntityManager;
 

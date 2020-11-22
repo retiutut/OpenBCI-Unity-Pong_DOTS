@@ -7,6 +7,12 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public Text m_Text;
+    public static string playerSelect;
+    public static string boardSelect;
+    public static string controlMethod;
+    private Dropdown playerSelectDropdown;
+    private Dropdown boardSelectDropdown;
+    private Dropdown controlMethodDropdown;
 
     public void StartGame()
     {
@@ -25,10 +31,14 @@ public class MainMenu : MonoBehaviour
 #endif
     }
 
+
+
     void Start()
     {
-        //Fetch the Dropdown GameObject
-       
+
+        playerSelect = fetchInitialDropdownValue(playerSelectDropdown, "PlayerSelect");
+        boardSelect = fetchInitialDropdownValue(boardSelectDropdown, "BoardSelect");
+        controlMethod = fetchInitialDropdownValue(controlMethodDropdown, "ControlMethod");
         //Add listener for when the value of the Dropdown changes, to take action
         /*
         m_Dropdown.onValueChanged.AddListener(delegate {
@@ -37,10 +47,29 @@ public class MainMenu : MonoBehaviour
         */
     }
 
-    //Ouput the new value of the Dropdown into Text
-    public void DropdownValueChanged(Dropdown dropdown)
+    private string fetchInitialDropdownValue(Dropdown dropdown, string name)
     {
-        m_Text.text = dropdown.options[dropdown.value].text;
+        dropdown = GameObject.Find(name).GetComponent<Dropdown>();
+        return dropdown.options[dropdown.value].text;
+
     }
 
+    //Ouput the new value of the Dropdown into Text
+    public void playerSelectCallback(Dropdown dropdown)
+    {
+        playerSelect = dropdown.options[dropdown.value].text;
+        m_Text.text = playerSelect;
+    }
+
+    public void boardSelectCallback(Dropdown dropdown)
+    {
+        boardSelect = dropdown.options[dropdown.value].text;
+        m_Text.text = boardSelect;
+    }
+
+    public void controlMethodCallback(Dropdown dropdown)
+    {
+        controlMethod = dropdown.options[dropdown.value].text;
+        m_Text.text = controlMethod;
+    }
 }

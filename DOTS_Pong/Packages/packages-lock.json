@@ -61,7 +61,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
-      "version": "1.2.1",
+      "version": "1.2.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -156,8 +156,15 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.subsystemregistration": {
+      "version": "1.0.6",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.test-framework": {
-      "version": "1.1.16",
+      "version": "1.1.18",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -201,6 +208,23 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.unity.xr.legacyinputhelpers": {
+      "version": "2.1.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.management": {
+      "version": "3.2.16",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.legacyinputhelpers": "2.1.2",
+        "com.unity.subsystemregistration": "1.0.6"
+      },
+      "url": "https://packages.unity.com"
     },
     "nuget.mono-cecil": {
       "version": "0.1.6-preview",
