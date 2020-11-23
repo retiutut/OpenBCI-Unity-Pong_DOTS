@@ -1128,9 +1128,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7791116047340331230, guid: 2d15bdb912d41064eb697c7d218f9f1e,
         type: 3}
+      propertyPath: m_Options.m_Options.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7791116047340331230, guid: 2d15bdb912d41064eb697c7d218f9f1e,
+        type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 3259430482195863917}
+    - target: {fileID: 7791116047340331230, guid: 2d15bdb912d41064eb697c7d218f9f1e,
+        type: 3}
+      propertyPath: m_Options.m_Options.Array.data[0].m_Text
+      value: Focus (EEG)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7791116047340331230, guid: 2d15bdb912d41064eb697c7d218f9f1e,
+        type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: Focus (EEG)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7791116047340331230, guid: 2d15bdb912d41064eb697c7d218f9f1e,
+        type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: Focus (EEG)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7791116047340331230, guid: 2d15bdb912d41064eb697c7d218f9f1e,
+        type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: Focus (EEG)
+      objectReference: {fileID: 0}
     - target: {fileID: 7791116047340331231, guid: 2d15bdb912d41064eb697c7d218f9f1e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1236,6 +1261,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7791116048350491033, guid: 2d15bdb912d41064eb697c7d218f9f1e,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d15bdb912d41064eb697c7d218f9f1e, type: 3}
 --- !u!224 &3259430483772822965 stripped
@@ -1253,9 +1283,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7280237718029877648, guid: cf0d9743b51829a4a97aa66acf93db10,
         type: 3}
+      propertyPath: m_Options.m_Options.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280237718029877648, guid: cf0d9743b51829a4a97aa66acf93db10,
+        type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 3259430482195863917}
+    - target: {fileID: 7280237718029877648, guid: cf0d9743b51829a4a97aa66acf93db10,
+        type: 3}
+      propertyPath: m_Options.m_Options.Array.data[4].m_Text
+      value: Synthetic
+      objectReference: {fileID: 0}
     - target: {fileID: 7280237718029877650, guid: cf0d9743b51829a4a97aa66acf93db10,
         type: 3}
       propertyPath: m_Name

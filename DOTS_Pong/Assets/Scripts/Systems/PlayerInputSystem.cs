@@ -17,6 +17,12 @@ public class PlayerInputSystem : JobComponentSystem
 			moveData.direction += Input.GetKey(inputData.upKey) ? 1 : 0;
 			moveData.direction -= Input.GetKey(inputData.downKey) ? 1 : 0;
 
+			BrainFlowData bfScript = GameManager.main.brainflowPrefab.GetComponent<BrainFlowData>();
+			if (bfScript.isBoardNull())
+            {
+				return;
+            }
+
 			
 			//double data = (BrainFlowData.ratios[6] + BrainFlowData.ratios[7]) /  2;
 			//Debug.Log(data);

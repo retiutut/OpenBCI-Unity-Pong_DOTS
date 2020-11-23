@@ -11,13 +11,13 @@ using UnityEditor;
 
 public class BrainFlowData : MonoBehaviour
 {
-    private BoardShim board_shim = null;
-    private int board_id = (int)BoardIds.SYNTHETIC_BOARD;
+    private BoardShim board_shim;
+    private BrainFlowInputParams input_params;
+    private static readonly int NO_BOARD_SELECTED = -10; 
+    private static int board_id = NO_BOARD_SELECTED;
     private int samplingRate = 0;
     private int[] eegChannels = null;
     private int[] accelChannels = null;
-    private bool isSynthetic = true;
-    private bool isGanglion = false;
 
     public static int numChan = 2;
     public static double[] ratios = new double[numChan];
@@ -30,24 +30,46 @@ public class BrainFlowData : MonoBehaviour
     {
         
         Debug.Log("MADE NEW BRAINFLOW OBJECT");
+      
+    }
+
+    public void setLocalControlParameters(string board, string _controlMethod)
+    {
+
+        input_params = new BrainFlowInputParams();
+
+        if (board.Equals("Synthetic"))
+        {
+            board_id = (int)BoardIds.SYNTHETIC_BOARD;
+        }
+        else if (board.Equals("Cyton"))
+        {
+            input_params.serial_port = "COM4";
+            board_id = (int)BoardIds.CYTON_BOARD;
+        }
+        else if (board.Equals("Ganglion"))
+        {
+            input_params.serial_port = "COM3";
+            board_id = (int)BoardIds.GANGLION_BOARD;
+        }
+        else if (board.Equals("Cyton+Daisy"))
+        {
+            input_params.serial_port = "COM4";
+            board_id = (int)BoardIds.CYTON_DAISY_BOARD;
+        }
+    }
+
+    public void init()
+    {
+        if (isBoardNull())
+        {
+            return;
+        }
+
         try
         {
             BoardShim.set_log_file("brainflow_log.txt");
             BoardShim.enable_dev_board_logger();
-
-            BrainFlowInputParams input_params = new BrainFlowInputParams();
-           
-            if (!isSynthetic)
-            {
-                input_params.serial_port = "COM4";
-                board_id = 0;
-            }
-
-            if (isGanglion)
-            {
-                input_params.serial_port = "COM3";
-                board_id = 1;
-            }
 
             board_shim = new BoardShim(board_id, input_params);
             board_shim.prepare_session();
@@ -62,12 +84,14 @@ public class BrainFlowData : MonoBehaviour
         catch (BrainFlowException e)
         {
             Debug.Log(e);
+            board_id = NO_BOARD_SELECTED;
         }
     }
 
     // Update is called once per frame
     void Update()
     {
+        //Early out if board was not init properly or no board was selected
         if (board_shim == null)
         {
             return;
@@ -167,7 +191,7 @@ public class BrainFlowData : MonoBehaviour
      * Calculates a value between 0 and 1, given the precondition that value
      * is between min and max. 0 means value = max, and 1 means value = min.
      */
-    double normalized_value(int channel, double value)
+    private double normalized_value(int channel, double value)
     {
         if (value > maximums[channel])
         {
@@ -182,4 +206,9 @@ public class BrainFlowData : MonoBehaviour
         return ((value - minimums[channel]) / (maximums[channel] - minimums[channel]));
     }
 
+
+    public bool isBoardNull()
+    {
+        return board_id == NO_BOARD_SELECTED;
+    }
 }

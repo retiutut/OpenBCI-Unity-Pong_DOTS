@@ -46,8 +46,6 @@ public class GameManager : MonoBehaviour
 		main = this;
         playerScores = new int[2];
 
-		Debug.Log("Game Settings: " + MainMenu.playerSelect + " , " + MainMenu.boardSelect + " , " + MainMenu.controlMethod);
-
 		manager = World.DefaultGameObjectInjectionWorld.EntityManager;
 
 		GameObjectConversionSettings settings = GameObjectConversionSettings.FromWorld(World.DefaultGameObjectInjectionWorld, null);
@@ -58,6 +56,10 @@ public class GameManager : MonoBehaviour
 		delay = new WaitForSeconds(respawnDelay);
 
         Instantiate(brainflowPrefab);
+		//Pass information from main menu to the brainflow object
+		BrainFlowData bfScript = brainflowPrefab.GetComponent<BrainFlowData>();
+		bfScript.setLocalControlParameters(MainMenu.boardSelect, MainMenu.controlMethod);
+		bfScript.init();
 
 
 		mainText = Instantiate(mainTextPrefab, Vector3.zero, Quaternion.identity) as Text;

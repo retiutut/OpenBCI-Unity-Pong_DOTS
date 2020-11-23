@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public static MainMenu main;
     public Text m_Text;
     public static string playerSelect;
     public static string boardSelect;
@@ -13,6 +15,8 @@ public class MainMenu : MonoBehaviour
     private Dropdown playerSelectDropdown;
     private Dropdown boardSelectDropdown;
     private Dropdown controlMethodDropdown;
+
+    public enum ControlMethod { Keyboard, Mouse, Accelerometer, EMG, Focus };
 
     public void StartGame()
     {
@@ -27,18 +31,31 @@ public class MainMenu : MonoBehaviour
         // UnityEditor.EditorApplication.isPlaying need to be set to false to end the game
         UnityEditor.EditorApplication.isPlaying = false;
 #else
-         Application.Quit();
+        Application.Quit();
 #endif
     }
 
-
-
-    void Start()
+    private void Awake()
     {
+        if (main != null && main != this)
+        {
+            return;
+        }
 
-        playerSelect = fetchInitialDropdownValue(playerSelectDropdown, "PlayerSelect");
-        boardSelect = fetchInitialDropdownValue(boardSelectDropdown, "BoardSelect");
-        controlMethod = fetchInitialDropdownValue(controlMethodDropdown, "ControlMethod");
+        main = this;
+
+        Debug.Log("MAIN MENU IS START");
+        playerSelectDropdown = GameObject.Find("PlayerSelect").GetComponent<Dropdown>();
+        playerSelect = fetchInitialDropdownValue(playerSelectDropdown);
+
+        boardSelectDropdown = GameObject.Find("BoardSelect").GetComponent<Dropdown>();
+        boardSelect = fetchInitialDropdownValue(boardSelectDropdown);
+
+        controlMethodDropdown = GameObject.Find("ControlMethod").GetComponent<Dropdown>();
+        string[] enumNames = Enum.GetNames(typeof(ControlMethod));
+        List<string> names = new List<string>(enumNames);
+        controlMethodDropdown.AddOptions(names);
+        controlMethod = fetchInitialDropdownValue(controlMethodDropdown);
         //Add listener for when the value of the Dropdown changes, to take action
         /*
         m_Dropdown.onValueChanged.AddListener(delegate {
@@ -47,11 +64,9 @@ public class MainMenu : MonoBehaviour
         */
     }
 
-    private string fetchInitialDropdownValue(Dropdown dropdown, string name)
+    private string fetchInitialDropdownValue(Dropdown dropdown)
     {
-        dropdown = GameObject.Find(name).GetComponent<Dropdown>();
         return dropdown.options[dropdown.value].text;
-
     }
 
     //Ouput the new value of the Dropdown into Text

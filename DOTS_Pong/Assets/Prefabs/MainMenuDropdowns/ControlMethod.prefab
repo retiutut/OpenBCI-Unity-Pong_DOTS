@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 7791116047340331225}
   - component: {fileID: 7791116047340331230}
   m_Layer: 5
-  m_Name: Control Method
+  m_Name: ControlMethod
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -277,17 +277,7 @@ MonoBehaviour:
   m_ItemImage: {fileID: 0}
   m_Value: 0
   m_Options:
-    m_Options:
-    - m_Text: Keyboard
-      m_Image: {fileID: 0}
-    - m_Text: Accelerometer
-      m_Image: {fileID: 0}
-    - m_Text: EMG
-      m_Image: {fileID: 0}
-    - m_Text: Mouse/Touch
-      m_Image: {fileID: 0}
-    - m_Text: Focus (EEG)
-      m_Image: {fileID: 0}
+    m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
